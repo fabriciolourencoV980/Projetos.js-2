@@ -1,4 +1,4 @@
-// 1 - Number 
+/*// 1 - Number 
 
 console.log( typeof 10);
 console.log( typeof 5.14); 
@@ -51,5 +51,22 @@ console.log(10 === 9);
 
 console.log(10 !== 10); //Verifica se é diferente em relação ao valor e ao tipo do dado
 console.log(10 !== "10");
-console.log(10 !== 9); 
+console.log(10 !== 9);*/
 
+// 11 - Operadores Lógicos
+
+console.log(true && true);
+console.log(true && false);
+console.log(false && true); 
+console.log(false && false);
+console.log(5 > 2 && 2 < 10)
+console.log(5 > 2 && "Fafah" === 1);
+
+console.log(true || true);
+console.log(true || false);
+console.log(false|| true); 
+console.log(false|| false);
+console.log(5 > 2 && "Fafah" === 1);
+
+console.log(!true);
+console.log(!false);
