@@ -46,3 +46,10 @@ console.log(10 != "10");
 console.log(10 === 10); //Estritamente Igual(Identico) - Verifica se é igual em relação ao valor e Tipo
 console.log(10 === "10");
 console.log(10 === 9);
+
+// 10 - Valores identicos
+
+console.log(10 !== 10); //Verifica se é diferente em relação ao valor e ao tipo do dado
+console.log(10 !== "10");
+console.log(10 !== 9); 
+
