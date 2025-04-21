@@ -28,3 +28,16 @@ console.log(5 > 4);
 console.log(5 < 4); 
 console.log(5 === 5); 
 console.log(5 === "5");
+
+// 9 - Comparações
+
+console.log(5 <= 5); //Menor ou Igual - Verifica se é igual em questão de valor 
+console.log(5 >= 5); //Maior ou Igual
+
+console.log(10 == 10); //Igualdade
+console.log(10 == 9); 
+console.log(10 == "10");
+
+console.log(10 === 10); //Estritamente Igual(Identico) - Verifica se é igual em relação ao valor e Tipo
+console.log(10 === "10");
+console.log(10 === 9);
