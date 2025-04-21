@@ -38,6 +38,11 @@ console.log(10 == 10); //Igualdade
 console.log(10 == 9); 
 console.log(10 == "10");
 
+
+console.log(10 != 9); //Diferença
+console.log(10 != 10);
+console.log(10 != "10");
+
 console.log(10 === 10); //Estritamente Igual(Identico) - Verifica se é igual em relação ao valor e Tipo
 console.log(10 === "10");
 console.log(10 === 9);
