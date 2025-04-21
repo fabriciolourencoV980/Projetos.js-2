@@ -70,3 +70,18 @@ console.log(5 > 2 && "Fafah" === 1);
 
 console.log(!true);
 console.log(!false);
+
+// 12 - Empty Value
+ 
+console.log(typeof null, typeof undefined);
+console.log(null === undefined);
+console.log(null == undefined);
+console.log(null == false);
+console.log(undefined == false);
+
+// 13 - Conversão de tipo automático
+
+console.log(5 * null);
+console.log("teste" * "opa");
+console.log("10" + 1);
+console.log("10" - 9);
