@@ -39,7 +39,7 @@ if(user === "João"){
 
 // 6 - Else
 
-const loggedIn = false; 
+/* const loggedIn = false; 
 
 if(loggedIn ===  true){
     console.log("Está authenticado.")
@@ -54,6 +54,69 @@ if(q > 5 && w > 20){
     console.log("Números mais altos.")
 } else{
     console.log("Os números não são mais altos.")
-}
+} */ 
 
 // 7 - Else If
+
+/* if(1 > 2){
+    console.log("Teste")
+} else if(2 > 3){
+    console.log("Teste2")
+} else if(5 > 1){
+    console.log("Agora sim!")
+}; 
+
+const userName = "Fabricio"; 
+const userAge = 20; 
+
+if(userName === "José"){
+    console.log("Bem vindo José")
+} else if(userName === "Fabricio" && userAge === 20){
+    console.log("Olá Fabrício, você tem 20 anos")
+} else{
+    console.log("Nenhuma condião é aceita")
+}; */
+
+// 8 - While 
+
+ /*let p = 0;
+
+while(p < 5 ){
+    console.log(`Repetindo ${p}`);
+    p = p + 1
+}; */
+
+// Loop infinito
+
+/* let x = 10; 
+
+ while(x > 5){
+    console.log(`Imprimir ${x}`)
+} */
+
+// 9 - Do While 
+
+/*let o = 10; 
+
+do {
+    console.log(`Valor de o: ${o}`)
+    o-- // o = o - 1
+} while(o > 1)*/
+
+// 10 - For 
+
+/*for(let t = 0; t < 10; t++){
+    console.log(`Repetindo ${t}`)
+} */
+
+/*for(let p = 10; p > 0; p--){
+    console.log(`Repetindo ${p}`)
+}*/
+
+/*let r = 10 
+
+for(r; r > 0; r =  r - 1){
+    console.log("R diminuindo")
+}*/
+
+//
