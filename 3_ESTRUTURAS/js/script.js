@@ -119,4 +119,34 @@ for(r; r > 0; r =  r - 1){
     console.log("R diminuindo")
 }*/
 
-//
+// 13 - identação
+
+/*for (let u = 0; u < 10; u++) {
+  if (u * 2 > 10) {
+    console.log(`Maior que 10! ${u}`);
+  } else {
+    if (u / 2 === 0) {
+      console.log("Deu 0");
+    }
+  }
+}*/
+
+// 14 - Break
+
+/*for (let g = 20; g > 10; g--) {
+  console.log(`O valor de g é: ${g}`);
+
+  if (g === 12) {
+    console.log("O g é 12!");
+    break;
+  }
+}
+
+for (let a = 0; a < 10; a++) {
+  console.log(`O valor de a é: ${a}`);
+
+  if (a === 5) {
+    console.log(`a é igual a ${a}`);
+    break;
+  }
+} */
