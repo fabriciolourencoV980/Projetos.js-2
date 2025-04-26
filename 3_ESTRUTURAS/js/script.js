@@ -18,7 +18,7 @@ alert(`O seu número é ${z}`); */
  console.log(Math.rando()); //Gera números aleátorios */
 
 // 4 - console
- 
+
 /* console.log("Teste!"); 
  console.error("ERROR1!"); 
  console.warn("AVISO"); */
@@ -54,7 +54,7 @@ if(q > 5 && w > 20){
     console.log("Números mais altos.")
 } else{
     console.log("Os números não são mais altos.")
-} */ 
+} */
 
 // 7 - Else If
 
@@ -77,9 +77,9 @@ if(userName === "José"){
     console.log("Nenhuma condião é aceita")
 }; */
 
-// 8 - While 
+// 8 - While
 
- /*let p = 0;
+/*let p = 0;
 
 while(p < 5 ){
     console.log(`Repetindo ${p}`);
@@ -94,7 +94,7 @@ while(p < 5 ){
     console.log(`Imprimir ${x}`)
 } */
 
-// 9 - Do While 
+// 9 - Do While
 
 /*let o = 10; 
 
@@ -103,7 +103,7 @@ do {
     o-- // o = o - 1
 } while(o > 1)*/
 
-// 10 - For 
+// 10 - For
 
 /*for(let t = 0; t < 10; t++){
     console.log(`Repetindo ${t}`)
