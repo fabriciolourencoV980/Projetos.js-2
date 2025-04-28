@@ -150,3 +150,32 @@ for (let a = 0; a < 10; a++) {
     break;
   }
 } */
+
+// 15 - Continue
+
+/*for (let s = 1; s < 10; s = s + 1) {
+  //operador de resto = %
+  if (s % 2 === 0) {
+    console.log("Número Par!");
+    continue;
+  }
+  console.log(s);
+}*/
+
+// 16 - Switch
+
+/*const job = "Engenheiro";
+
+switch (job) {
+  case "Programador":
+    console.log("Você é um programador!");
+    break;
+  case "Advogado":
+    console.log("Você é advogado!");
+    break;
+  case "Engenheiro":
+    console.log("Você é engenheiro");
+    break;
+  default:
+    console.log("Profissão não encontrada");
+} */
