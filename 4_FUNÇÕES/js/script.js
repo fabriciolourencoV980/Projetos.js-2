@@ -101,7 +101,7 @@ parOuImpa(3); */
 }
 raizQuadrada(200); // Minha solução*/
 
- /* const raizQuadrada1 = (x) =>{
+/* const raizQuadrada1 = (x) =>{
     return x * x
 }
 console.log(raizQuadrada1(9));
@@ -113,7 +113,7 @@ console.log(raizQuadrada2(12));
 const helloworld = () => console.log("Hello World"); 
 helloworld(); */
 
-// 7 - Parametro opcional 
+// 7 - Parametro opcional
 
 /*const multiplication = function (m, n){
     
@@ -137,5 +137,46 @@ const greeting = (name) => {
 greeting();
 greeting('Fabrício'); */
 
-// 8 - Valor default 
+// 8 - Valor default
+
+/*const customGreeting = (name, greet = "Olá") => {
+  return `${greet}, ${name}`
+};
+console.log(customGreeting("Fabrício"))
+console.log(customGreeting("Fafah","Boa tarde!"))
+
+const repeatText = (text, repeat = 2) => {
+    for(let i = 0; i < repeat; i++){
+        console.log(text)
+    }
+};
+ repeatText("Testando");
+ repeatText("Agora repete 5 vezes", 5); */
+
+// 9 - closure
+
+/*function someFunction() {
+  let txt = "Alguma coisa";
+
+  function display() {
+    console.log(txt);
+  }
+  display();
+}
+someFunction();
+
+// 10 - Mais sobre closure 
+
+const multiplicationClosure = (n) => {
+    return (m) => {
+        return n * m
+    };
+};
+
+const c1 = multiplicationClosure(5);
+const c2 = multiplicationClosure(10); 
+console.log(c1(5));
+console.log(c2(10)); */
+
+// 10 - Recursão
 
