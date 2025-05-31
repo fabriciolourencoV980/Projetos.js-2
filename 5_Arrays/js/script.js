@@ -99,7 +99,7 @@ for(let i = 0; i < users.length; i++){
   console.log(`Listando o usuário: ${users[i]}`)
 };*/
 
-// 11 - push e pop
+// 11 - push(adiciona final) e pop(remove final)
 
 /*const array = ["a", "b", "c"]
 array.push("d")
@@ -114,5 +114,18 @@ console.log(array);
 array.push("z","x","y"); 
 console.log(array)*/
 
-// 12 - Shift e Unshift 
+// 12 - Shift(remove inicio) e Unshift(adiciona inicio)
+
+/*const letters = ["a", "b", "c"]; 
+const letter = letters.shift(); 
+
+console.log(letter); 
+console.log(letters);
+
+letters.unshift("p","q","r")
+letters.unshift("z"); 
+console.log(letters);*/
+
+// 13 - IndexOf lastIndexOf
+
 
