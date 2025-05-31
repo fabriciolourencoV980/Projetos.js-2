@@ -51,7 +51,7 @@ console.log(car);
 delete car.km;
 console.log(car);*/
 
-// 7 - mais sobre objetos 
+// 7 - mais sobre objetos
 
 /*const obj = {
   a: "Teste",
@@ -73,7 +73,7 @@ console.log(Object.keys(obj2));
 console.log(Object.entries(obj)); 
 console.log(Object.entries(obj2));*/
 
-// 9 - Mutação 
+// 9 - Mutação
 /*const a = {
   nome: "Fabrício"
 }; 
@@ -89,9 +89,9 @@ console.log(b);
 
 delete b.age; 
 console.log(a);
-console.log(b);*/ 
+console.log(b);*/
 
-// 10 - loop em arrray 
+// 10 - loop em arrray
 
 /*const users = ["Matheus", "Jõao", "Pedro", "Miguel"];
 
@@ -138,7 +138,7 @@ console.log(myElements.lastIndexOf("Pessego"));
 console.log(myElements.indexOf("Mamão")); 
 console.log(myElements.lastIndexOf("Mamão")); */
 
-// 14 -  Slice 
+// 14 -  Slice
 /*const testeSlice = ["a", "b", "c", "d", "e", "f"]; 
 
 const subArray = testeSlice.slice(2, 4); 
@@ -152,7 +152,7 @@ console.log(subArray3);
 const subArray4 = testeSlice.slice(2); 
 console.log(subArray4); */
 
-// 15 - forEach 
+// 15 - forEach
 /*const nums = [1, 2, 3, 4, 5]; 
 
 /*for(let i = 0; i < nums.length; i++){ 
@@ -183,7 +183,7 @@ if(brands.includes("BMW")){
   console.log(`Há carros da marca BMW em meio a lista de array!`)
 }*/
 
-// 17 - Reverse 
+// 17 - Reverse
 /*const reverseTeste = [1, 2, 3, 4, 5];
 reverseTeste.reverse(); 
 console.log(reverseTeste);*/
@@ -196,9 +196,9 @@ console.log(trimTeste);
 console.log(trimTeste.trim()); 
 
 console.log(trimTeste.length); 
-console.log(trimTeste.trim().length);*/ 
+console.log(trimTeste.trim().length);*/
 
-// 19 - PadStart 
+// 19 - PadStart
 /*const testePadStart = "1"; 
 const newNumber = testePadStart.padStart(4, "0");
 console.log(newNumber); 
@@ -223,9 +223,23 @@ const itensParaComprar = ["Mouse", "Teclado", "Monitor"];
 const fraseDeCompra = `Precisamos comprar: ${itensParaComprar.join(", ")}`
 console.log(fraseDeCompra)*/
 
-// 22 - repeat 
+// 22 - repeat
 
 /*const palavra = "Testando "; 
 console.log(palavra.repeat(5));*/
 
-// 23 - Rest 
+// 23 - Rest operator
+
+/*const somaInfinita = (...args) => {
+  let total = 0;
+  for (let i = 0; i < args.length; i++) 
+  total += args[i];
+
+  return total; 
+};
+
+console.log(somaInfinita(1, 2, 3));
+console.log(somaInfinita(1, 20, 63, 52, 100, 250, 552, 990, 789, 899, 900));*/
+
+// 24 - for of
+
