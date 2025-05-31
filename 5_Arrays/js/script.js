@@ -73,4 +73,46 @@ console.log(Object.keys(obj2));
 console.log(Object.entries(obj)); 
 console.log(Object.entries(obj2));*/
 
-// 9 - 
+// 9 - Mutação 
+/*const a = {
+  nome: "Fabrício"
+}; 
+
+const b = a; 
+console.log(a); 
+console.log(b); 
+
+console.log(a === b);
+a.age = 31; 
+console.log(a);
+console.log(b); 
+
+delete b.age; 
+console.log(a);
+console.log(b);*/ 
+
+// 10 - loop em arrray 
+
+/*const users = ["Matheus", "Jõao", "Pedro", "Miguel"];
+
+for(let i = 0; i < users.length; i++){
+  console.log(`Listando o usuário: ${users[i]}`)
+};*/
+
+// 11 - push e pop
+
+/*const array = ["a", "b", "c"]
+array.push("d")
+console.log(array)
+array.pop();
+console.log(array)
+
+const itemRemovido = array.pop(); 
+console.log(itemRemovido); 
+console.log(array); 
+
+array.push("z","x","y"); 
+console.log(array)*/
+
+// 12 - Shift e Unshift 
+
