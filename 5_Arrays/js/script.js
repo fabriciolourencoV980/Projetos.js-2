@@ -153,3 +153,34 @@ const subArray4 = testeSlice.slice(2);
 console.log(subArray4); */
 
 // 15 - forEach 
+/*const nums = [1, 2, 3, 4, 5]; 
+
+/*for(let i = 0; i < nums.length; i++){ 
+  console.log(`Números salvos em lista: ${nums[i]}`)
+}*/
+
+/*nums.forEach((numero) => {
+  console.log(`O número é ${numero}`)
+})
+
+const posts = [
+  {tiltle: "Primeiro post", category: "PHP"},
+  {tiltle: "Segundo post", category: "JavaScript"}, 
+  {tiltle: "Terceiro post", category: "Phyton"},  
+]
+
+posts.forEach((post) =>{
+  console.log(`Exibindo post: ${post.tiltle}, da categoria: ${post.category}`)
+})*/
+
+// 16 - Includes
+/*const brands = ["BMW","VW","Fiat"];
+
+console.log(brands.includes("Fiat"));
+console.log(brands.includes("VolksWalgem")); 
+
+if(brands.includes("BMW")){
+  console.log(`Há carros da marca BMW em meio a lista de array!`)
+}*/
+
+// 17 - 
