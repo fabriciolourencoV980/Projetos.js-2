@@ -127,5 +127,29 @@ letters.unshift("z");
 console.log(letters);*/
 
 // 13 - IndexOf lastIndexOf
+/* const myElements =  ["Morando", "Maça", "Banana", "Pera", "Pessego"]
 
+console.log(myElements.indexOf("Maça")); 
+console.log(myElements.indexOf("Pessego"));
+console.log(myElements[2]);
+console.log(myElements[myElements.indexOf("Pessego")]); 
 
+console.log(myElements.lastIndexOf("Pessego")); 
+console.log(myElements.indexOf("Mamão")); 
+console.log(myElements.lastIndexOf("Mamão")); */
+
+// 14 -  Slice 
+/*const testeSlice = ["a", "b", "c", "d", "e", "f"]; 
+
+const subArray = testeSlice.slice(2, 4); 
+console.log(subArray); 
+console.log(testeSlice); 
+const subArray2 = testeSlice.slice(2, 4 + 1); 
+console.log(subArray2); 
+const subArray3 = testeSlice.slice(10, 20); 
+console.log(subArray3); 
+
+const subArray4 = testeSlice.slice(2); 
+console.log(subArray4); */
+
+// 15 - forEach 
