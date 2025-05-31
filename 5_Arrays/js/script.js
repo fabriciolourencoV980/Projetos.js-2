@@ -243,3 +243,35 @@ console.log(somaInfinita(1, 20, 63, 52, 100, 250, 552, 990, 789, 899, 900));*/
 
 // 24 - for of
 
+/*const somaInfinita2 = (...args) => {
+
+let total = 0 
+
+for(num of args){
+  total += num; 
+}
+  return total; 
+}; 
+
+console.log(somaInfinita2(1, 2, 4)); 
+console.log(somaInfinita2(5, 4, 6, 23, 5, 6, 7, 5, 100));*/
+
+// 25 - destructuring em Objetos 
+
+/*const userDetails = {
+  firstName: "Fabrício",
+  lastName: "Lourenço", 
+  job: "Programador"
+} 
+
+const {firstName, lastName, job} = userDetails; 
+console.log(firstName, lastName, job); 
+
+// renomear variaveis 
+
+const {firstName: primeiroNome} = userDetails; 
+console.log(firstName); */ 
+
+// 26 - destruction em Array 
+
+
