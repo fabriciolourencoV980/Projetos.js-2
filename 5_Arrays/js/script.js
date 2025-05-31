@@ -274,4 +274,23 @@ console.log(firstName); */
 
 // 26 - destruction em Array 
 
+/*const myList = ["Avião", "Submarino", "Carro"]; 
 
+const [veiculoA, veiculoB, veiculoC] = myList; 
+console.log(veiculoA, veiculoB, veiculoC);*/
+
+// 27 - JSON 
+/*const myJson = '{"name": "Fabrício", "age": 31, "skills": ["PHP", "JavaScript", "Pythoh"]}'; 
+console.log(myJson)
+console.log(typeof myJson);
+
+// 28 - JSON para Objeto e Objeto para JSON
+
+const myObject = JSON.parse(myJson);
+console.log(myObject); 
+console.log(myObject.name);
+console.log(typeof myObject); 
+
+const myNewJson = JSON.stringify(myObject);
+console.log(myNewJson); 
+console.log(typeof myNewJson);*/
