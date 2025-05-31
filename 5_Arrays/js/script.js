@@ -64,6 +64,13 @@ const obj2 = {
 };
 Object.assign(obj2, obj); 
 console.log(obj2);
-console.log(obj)*/
+console.log(obj)
 
-// 8 - 
+// 8 - Conhecendo melhor os Objetos 
+console.log(Object.keys(obj)); 
+console.log(Object.keys(obj2)); 
+
+console.log(Object.entries(obj)); 
+console.log(Object.entries(obj2));*/
+
+// 9 - 
