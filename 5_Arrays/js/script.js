@@ -38,7 +38,7 @@ console.log(person.name, person.age, person.job);
 console.log(person.name.length);*/
 
 // 6 - Criando e deletando Objetos
-const car = {
+/*const car = {
   engine: 2.0,
   brand: "VW",
   model: "Tiguan",
@@ -49,6 +49,21 @@ car.doors = 4;
 console.log(car);
 
 delete car.km;
-console.log(car);
+console.log(car);*/
 
-// 7 - 
+// 7 - mais sobre objetos 
+
+/*const obj = {
+  a: "Teste",
+  b: true
+}; 
+console.log(obj instanceof Object)
+
+const obj2 = {
+  c: []
+};
+Object.assign(obj2, obj); 
+console.log(obj2);
+console.log(obj)*/
+
+// 8 - 
