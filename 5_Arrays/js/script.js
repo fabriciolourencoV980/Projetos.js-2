@@ -183,4 +183,49 @@ if(brands.includes("BMW")){
   console.log(`Há carros da marca BMW em meio a lista de array!`)
 }*/
 
-// 17 - 
+// 17 - Reverse 
+/*const reverseTeste = [1, 2, 3, 4, 5];
+reverseTeste.reverse(); 
+console.log(reverseTeste);*/
+
+// 18 - Trim (remove tudo o que não é texto em uma string)
+
+/*const trimTeste = "  testando \n "
+
+console.log(trimTeste); 
+console.log(trimTeste.trim()); 
+
+console.log(trimTeste.length); 
+console.log(trimTeste.trim().length);*/ 
+
+// 19 - PadStart 
+/*const testePadStart = "1"; 
+const newNumber = testePadStart.padStart(4, "0");
+console.log(newNumber); 
+
+const testePadEnd = "1"; 
+const newNumber2 = testePadEnd.padEnd(4, "0"); 
+console.log(newNumber2);*/
+
+// 20 - split
+
+/*const frase = "O rato roeu a roupa do rei de roma"; 
+const arrayDaFrase = frase.split(" "); 
+console.log(arrayDaFrase);
+
+// 21 - join 
+
+const fraseDenovo = arrayDaFrase.join(" "); 
+console.log(fraseDenovo); 
+
+const itensParaComprar = ["Mouse", "Teclado", "Monitor"]; 
+
+const fraseDeCompra = `Precisamos comprar: ${itensParaComprar.join(", ")}`
+console.log(fraseDeCompra)*/
+
+// 22 - repeat 
+
+/*const palavra = "Testando "; 
+console.log(palavra.repeat(5));*/
+
+// 23 - Rest 
