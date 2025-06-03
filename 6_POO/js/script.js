@@ -91,4 +91,54 @@ console.log(jack);
 
 console.log(Object.getPrototypeOf(jack))*/
 
-// 7 - 
+// 7 - funções como classe 
+/*function Cachorro(nome, raca){
+    this.nome = nome;  
+    this.raca = raca; 
+}; 
+
+const husky = new Cachorro("Ozzy", "husky"); 
+console.log(husky);
+
+// 8 - Metodos na função construtora 
+Cachorro.prototype.uivar = function(){
+    console.log("Auuuu!")
+}
+console.log(Cachorro.prototype); 
+husky.uivar();*/
+
+// 9 - Classes ES6 
+/*class CachorroClasse {
+    constructor(nome, raca){
+        this.nome = nome; 
+        this.raca = raca; 
+    }
+}
+
+const jef = new CachorroClasse("Jef", "Labrador"); 
+console.log(jef); 
+console.log(Object.getPrototypeOf(jef))*/
+
+// 10 - Mais sobre classes
+class Caminhao{
+    constructor(eixos, cor){
+        this.eixos = eixos; 
+        this.cor = cor; 
+    }
+    
+       descreverCaminhao(){
+        console.log(`Este caminhão tem ${this.eixos} e é da cor ${this.cor}.`)
+    }
+}
+
+const mercedes = new Caminhao( 4 , "Vermelho"); 
+console.log(mercedes); 
+mercedes.descreverCaminhao()
+const scania = new Caminhao( 6, "branca"); 
+console.log(scania); 
+scania.descreverCaminhao();
+
+Caminhao.prototype.motor = 4.0; 
+
+const c3 = new Caminhao(6, "Azul"); 
+console.log(c3.motor); 
