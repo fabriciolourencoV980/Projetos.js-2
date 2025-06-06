@@ -1,4 +1,4 @@
-// 1 - Métodos 
+// 1 - Métodos
 /*const animal = {
     nome: "Bob", 
     cor: "Caramelo",
@@ -7,9 +7,9 @@
     }
 }; 
 console.log(animal.nome); 
-animal.latir();*/ 
+animal.latir();*/
 
-// 2 - Aprofundando em Métodos 
+// 2 - Aprofundando em Métodos
 /*const pessoa = {
     nome: "Fabrício",
 
@@ -26,7 +26,7 @@ console.log(pessoa.getNome());
 pessoa.setNome("Joaquim");
 console.log(pessoa.getNome()); */
 
-// 3 - Prototype 
+// 3 - Prototype
 /*const text = "asd"; 
 console.log(Object.getPrototypeOf(text)); 
 
@@ -39,7 +39,7 @@ console.log(Object.getPrototypeOf(arr));
 const len = length; 
 console.log(Object.getPrototypeOf(len)); */
 
-// 4 - Mais sobre Prototype 
+// 4 - Mais sobre Prototype
 /*const myObject = {
     a: "b"
 };
@@ -51,7 +51,7 @@ console.log(mySeconObject);
 console.log(mySeconObject.a); 
 console.log(Object.getPrototypeOf(mySeconObject) === myObject);*/
 
-// 5 - Classes Básicas 
+// 5 - Classes Básicas
 /*const cachorro = {
     raca: null,
     patas: 4, 
@@ -91,7 +91,7 @@ console.log(jack);
 
 console.log(Object.getPrototypeOf(jack))*/
 
-// 7 - funções como classe 
+// 7 - funções como classe
 /*function Cachorro(nome, raca){
     this.nome = nome;  
     this.raca = raca; 
@@ -107,7 +107,7 @@ Cachorro.prototype.uivar = function(){
 console.log(Cachorro.prototype); 
 husky.uivar();*/
 
-// 9 - Classes ES6 
+// 9 - Classes ES6
 /*class CachorroClasse {
     constructor(nome, raca){
         this.nome = nome; 
@@ -120,7 +120,7 @@ console.log(jef);
 console.log(Object.getPrototypeOf(jef))*/
 
 // 10 - Mais sobre classes
-class Caminhao{
+/*class Caminhao{
     constructor(eixos, cor){
         this.eixos = eixos; 
         this.cor = cor; 
@@ -131,7 +131,7 @@ class Caminhao{
     }
 }
 
-const mercedes = new Caminhao( 4 , "Vermelho"); 
+const mercedes = new Caminhao( 4 , "Vermelha"); 
 console.log(mercedes); 
 mercedes.descreverCaminhao()
 const scania = new Caminhao( 6, "branca"); 
@@ -141,4 +141,40 @@ scania.descreverCaminhao();
 Caminhao.prototype.motor = 4.0; 
 
 const c3 = new Caminhao(6, "Azul"); 
-console.log(c3.motor); 
+console.log(c3.motor); */
+
+// 11 - Override
+/*class Humano {
+  constructor(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
+}
+
+const matheus = new Humano("Matheus", 31);
+console.log(matheus);
+Humano.prototype.idade = "Indefinida";
+console.log(matheus.idade);
+console.log(Humano.prototype.idade);*/
+
+// 12 - Symblo 
+
+/*class Aviao {
+    constructor(marca, turbinas){
+        this.marca = marca;
+        this.turbinas = turbinas; 
+    }
+}
+
+const asas = Symbol(); 
+const pilotos = Symbol();
+
+Aviao.prototype[pilotos] = 3; 
+Aviao.prototype[asas] = 2; 
+
+const boeing = new Aviao("Boeing", 10); 
+console.log(boeing); 
+console.log(boeing[asas]); 
+console.log(boeing[pilotos]); */
+
+//
