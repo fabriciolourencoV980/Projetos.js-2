@@ -177,4 +177,54 @@ console.log(boeing);
 console.log(boeing[asas]); 
 console.log(boeing[pilotos]); */
 
-//
+// 13 - Getters e Setters
+
+/*class Post {
+    constructor(titulo, descricao, tags){
+        this.titulo = titulo; 
+        this.descricao = descricao; 
+        this.tags = tags; 
+    }
+
+    get exibirTitulo(){
+         return `Você está lendo: ${this.titulo}`
+    }
+
+    set adicionarTags(tags){
+        const tagsArrays = tags.split(", ")
+        this.tags = tagsArrays; 
+    }
+}; 
+
+const myPost = new Post("Algum post", "É um post sobre programação")
+console.log(myPost); 
+console.log(myPost.exibirTitulo); 
+
+myPost.adicionarTags = "Programação, JavaScript, Html"; 
+console.log(myPost.tags);*/
+
+// 14 - Herança - Extends - Super
+/*class Mamifero{
+    constructor(patas){
+        this.patas = patas; 
+    }
+}
+
+class Lobo extends Mamifero{
+    constructor(patas, nome){
+        super(patas,patas)
+        this.nome = nome; 
+    }
+}
+
+const shark = new Lobo(4, "Shark"); 
+console.log(shark); 
+console.log(shark.patas);
+
+// 15 - instanceof - Verifica se um Objeto é pai de outro 
+
+console.log(shark instanceof Lobo);
+console.log(Lobo instanceof Mamifero); 
+
+console.log(new Lobo(4, "teste") instanceof Mamifero); */
+
