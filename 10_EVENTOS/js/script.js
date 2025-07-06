@@ -82,10 +82,29 @@ mouseEvent.addEventListener("dblclick", () => {
 })*/
 
 // 9 - Eventos por scroll
-window.addEventListener("scroll", (e) => {
+window.addEventListener("scroll", () => {
     if(window.pageYOffset > 200){
         console.log("Passamos de 200 pixels")
     }
 })
 
-// 10 - Evento de foco
+// 10 - Evento de focus blur
+const input = document.querySelector("#my-input") 
+input.addEventListener("focus",() => {
+    console.log("Entrou no input")
+})
+
+input.addEventListener("blur",() => {
+    console.log("Saiu no input")
+}); 
+
+// 11 - Eventos de carregamento de página
+
+window.addEventListener("load", () => {
+    console.log("A pagina carregou!")
+})
+
+window.addEventListener("beforeunload", (e) => {
+    e.preventDefault(); 
+    e.returnValue = "Teste"; 
+})
