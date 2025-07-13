@@ -26,9 +26,14 @@ const printData = async () => {
   console.log(data);
   data.forEach((user) => {
     const div = document.createElement("div");
-    const nameElement = document.createElement("h2")
-    nameElement.textContent = user.name
-    div.appendChild(nameElement)
+    const nameElement = document.createElement("h2");
+    nameElement.textContent = user.name;
+    div.appendChild(nameElement);
+    container.appendChild(div);
+
+    const emailElement = document.createElement("p");
+    emailElement.textContent = user.email;
+    div.appendChild(emailElement);
     container.appendChild(div)
   });
 };
