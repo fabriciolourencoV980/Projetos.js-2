@@ -1,4 +1,4 @@
-// 5 - 
+// 5 - hierarquia de componentes
 
 const MyComponent = () => {
   return (
